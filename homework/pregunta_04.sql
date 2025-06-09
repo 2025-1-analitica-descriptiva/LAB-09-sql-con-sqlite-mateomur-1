@@ -42,7 +42,7 @@
 
 SELECT K0, c16
 FROM tbl1
-WHERE substract(c16, 1, 1) = K0
+WHERE substr(c16, 1, 1) = K0;
 
 
 
